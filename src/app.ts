@@ -1,7 +1,5 @@
 import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
-import { createUserDb } from './app/modules/users/user.service'
-
 const app: Application = express()
 
 // cors
@@ -11,13 +9,13 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', async (req: Request, res: Response) => {
-  await createUserDb({
-    id: '12345',
-    password: '1234',
-    role: 'student',
-  })
-  res.send('Hello World!')
+import userRouter from './app/modules/users/user.router'
+// Application router
+app.use('/api/v1/users', userRouter)
+
+// Testing
+app.get('/', (req: Request, res: Response) => {
+  res.send('Hello world!')
 })
 
 export default app
