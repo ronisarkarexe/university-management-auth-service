@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\.318a74e45a4cfe41dab9ef8c9fc1d7bdbd27dded-audit.json",
-    "files": [
-        {
-            "date": 1685703106850,
-            "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-02-06-16-error.log",
-            "hash": "4e1115346e68529d3e671164a97fcb27a0d6587a8f24401a626259f0873334f0"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\.318a74e45a4cfe41dab9ef8c9fc1d7bdbd27dded-audit.json",
+  "files": [
+    {
+      "date": 1685703106850,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-02-06-16-error.log",
+      "hash": "4e1115346e68529d3e671164a97fcb27a0d6587a8f24401a626259f0873334f0"
+    }
+  ],
+  "hashType": "sha256"
 }
