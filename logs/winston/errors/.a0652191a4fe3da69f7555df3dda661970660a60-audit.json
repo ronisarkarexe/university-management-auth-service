@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\.a0652191a4fe3da69f7555df3dda661970660a60-audit.json",
+    "files": [
+        {
+            "date": 1685703102183,
+            "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-02-06-02-16-error.log",
+            "hash": "2e148c5813236eb790b028a80d0ec55141f192a035686b535107ff5ef68c9fde"
+        }
+    ],
+    "hashType": "sha256"
+}
