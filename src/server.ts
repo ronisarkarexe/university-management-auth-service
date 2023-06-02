@@ -1,7 +1,7 @@
 import { connect } from 'mongoose'
 import app from './app'
 import config from './config/index'
-import { logger } from './shared/logger'
+import { errorLogger, logger } from './shared/logger'
 
 async function run() {
   try {
@@ -11,7 +11,7 @@ async function run() {
       logger.info('listening on port ' + config.port)
     })
   } catch (error) {
-    logger.error('server connection error', error)
+    errorLogger.error('server connection error', error)
   }
 }
-run().catch(err => logger.error(err))
+run().catch(err => errorLogger.error(err))
