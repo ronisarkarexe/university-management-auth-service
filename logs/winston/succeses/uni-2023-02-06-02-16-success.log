@@ -1,0 +1,12 @@
+{
+  message: 'Databse is connected successfully',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-02T10:51:55.118Z'
+}
+{
+  message: 'listening on port 5000',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-02T10:51:55.133Z'
+}
