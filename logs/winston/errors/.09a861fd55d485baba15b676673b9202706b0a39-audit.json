@@ -1,20 +1,20 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\.09a861fd55d485baba15b676673b9202706b0a39-audit.json",
+  "files": [
+    {
+      "date": 1686021997726,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-06-06-08-error.log",
+      "hash": "018135f952472b2e01a1fb0c8c946eeadda25daba40e343117f33c41828e4679"
     },
-    "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\.09a861fd55d485baba15b676673b9202706b0a39-audit.json",
-    "files": [
-        {
-            "date": 1686021997726,
-            "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-06-06-08-error.log",
-            "hash": "018135f952472b2e01a1fb0c8c946eeadda25daba40e343117f33c41828e4679"
-        },
-        {
-            "date": 1686022239638,
-            "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-06-06-09-error.log",
-            "hash": "c6f84940430c299b2013e67d3b488469bc2e36676897fb4df482232e0b56a1e6"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686022239638,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-06-06-09-error.log",
+      "hash": "c6f84940430c299b2013e67d3b488469bc2e36676897fb4df482232e0b56a1e6"
+    }
+  ],
+  "hashType": "sha256"
 }

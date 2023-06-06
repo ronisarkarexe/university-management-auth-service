@@ -364,3 +364,15 @@
   label: 'right now!',
   timestamp: '2023-06-06T04:05:32.813Z'
 }
+{
+  message: 'Databse is connected successfully',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-06T04:05:42.387Z'
+}
+{
+  message: 'listening on port 5001',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-06T04:05:42.406Z'
+}
