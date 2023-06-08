@@ -10,12 +10,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import { UserRoutes } from './app/modules/users/user.router'
-import { AcademicSemesterRouters } from './app/modules/academicSemester/academicSemester.router'
+import routers from './app/routes'
 
 // Application router
-app.use('/api/v1/users', UserRoutes)
-app.use('/api/v1/academic-semesters', AcademicSemesterRouters)
+app.use('/api/v1', routers)
 
 app.use(globalErrorHandler)
 
