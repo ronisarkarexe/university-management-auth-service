@@ -25,6 +25,4 @@ const createAcademicSemesterZodSchema = z.object({
   }),
 })
 
-export const AcademicSemesterValidation = {
-  createAcademicSemesterZodSchema,
-}
+export { createAcademicSemesterZodSchema }
