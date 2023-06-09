@@ -1,7 +1,10 @@
 import httpStatus from 'http-status'
 import ApiError from '../../../customeError/ApiError'
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant'
-import { IAcademicSemester } from './academicSemester.interface'
+import {
+  IAcademicSemester,
+  IAcademicSemesterFilters,
+} from './academicSemester.interface'
 import AcademicSemester from './academicSemester.model'
 import { IPagination } from '../../../interfaces/pagination'
 import { IGenericResponse } from '../../../interfaces/common'
@@ -20,11 +23,49 @@ const createSemester = async (
 }
 
 const getAllSemestersDb = async (
+  filters: IAcademicSemesterFilters,
   paginationOptions: IPagination
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
-  // const { page = 1, limit = 10 } = paginationOptions
+  const { searchTerm } = filters
 
-  // const skip = (page - 1) * limit
+  const academicSemesterSearchableFields = ['title', 'code', 'year']
+  const addConditions = []
+
+  if (searchTerm) {
+    addConditions.push({
+      $or: academicSemesterSearchableFields.map(field => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i',
+        },
+      })),
+    })
+  }
+
+  // const andConditions = [
+  //   {
+  //     $or: [
+  //       {
+  //         title: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         code: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //       {
+  //         year: {
+  //           $regex: searchTerm,
+  //           $options: 'i',
+  //         },
+  //       },
+  //     ],
+  //   },
+  // ]
 
   const { page, limit, skip, sortBy, sortOrder } =
     calculatePagination(paginationOptions)
@@ -35,7 +76,7 @@ const getAllSemestersDb = async (
     sortCondition[sortBy] = sortOrder
   }
 
-  const result = await AcademicSemester.find()
+  const result = await AcademicSemester.find({ $and: addConditions })
     .sort(sortCondition)
     .skip(skip)
     .limit(limit)
