@@ -84,7 +84,9 @@ const getAllSemestersDb = async (
     sortCondition[sortBy] = sortOrder
   }
 
-  const result = await AcademicSemester.find({ $and: addConditions })
+  const whereCondition = addConditions.length > 0 ? { $and: addConditions } : {}
+
+  const result = await AcademicSemester.find(whereCondition)
     .sort(sortCondition)
     .skip(skip)
     .limit(limit)
@@ -101,7 +103,15 @@ const getAllSemestersDb = async (
   }
 }
 
+const getSingleSemester = async (
+  id: string
+): Promise<IAcademicSemester | null> => {
+  const result = await AcademicSemester.findById(id)
+  return result
+}
+
 export const AcademicSemesterService = {
   createSemester,
   getAllSemestersDb,
+  getSingleSemester,
 }
