@@ -1,6 +1,9 @@
 import httpStatus from 'http-status'
 import ApiError from '../../../customeError/ApiError'
-import { academicSemesterTitleCodeMapper } from './academicSemester.constant'
+import {
+  academicSemesterSearchableFields,
+  academicSemesterTitleCodeMapper,
+} from './academicSemester.constant'
 import {
   IAcademicSemester,
   IAcademicSemesterFilters,
@@ -27,8 +30,6 @@ const getAllSemestersDb = async (
   paginationOptions: IPagination
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
   const { searchTerm, ...filterData } = filters
-
-  const academicSemesterSearchableFields = ['title', 'code', 'year']
 
   const addConditions = []
   if (searchTerm) {
