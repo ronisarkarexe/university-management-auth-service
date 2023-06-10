@@ -26,11 +26,11 @@ const getAllSemestersDb = async (
   filters: IAcademicSemesterFilters,
   paginationOptions: IPagination
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
-  const { searchTerm } = filters
+  const { searchTerm, ...filterData } = filters
 
   const academicSemesterSearchableFields = ['title', 'code', 'year']
-  const addConditions = []
 
+  const addConditions = []
   if (searchTerm) {
     addConditions.push({
       $or: academicSemesterSearchableFields.map(field => ({
@@ -38,6 +38,13 @@ const getAllSemestersDb = async (
           $regex: searchTerm,
           $options: 'i',
         },
+      })),
+    })
+  }
+  if (Object.keys(filterData).length) {
+    addConditions.push({
+      $and: Object.entries(filterData).map(([field, value]) => ({
+        [field]: value,
       })),
     })
   }
