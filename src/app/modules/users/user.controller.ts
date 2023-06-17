@@ -4,9 +4,9 @@ import catchAsync from '../../../shared/catchAsync'
 import sendResponse from '../../../shared/sendResponse'
 import httpStatus from 'http-status'
 
-const createUser = catchAsync(async (req: Request, res: Response) => {
-  const { user } = req.body
-  const result = await UserService.createUserDb(user)
+const createStudent = catchAsync(async (req: Request, res: Response) => {
+  const { student, ...userData } = req.body
+  const result = await UserService.createStudentDb(student, userData)
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -15,4 +15,26 @@ const createUser = catchAsync(async (req: Request, res: Response) => {
   })
 })
 
-export const UserController = { createUser }
+const createFaculty = catchAsync(async (req: Request, res: Response) => {
+  const { faculty, ...userData } = req.body
+  const result = await UserService.createFacultyDb(faculty, userData)
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User created successfully',
+    data: result,
+  })
+})
+
+const createAdmin = catchAsync(async (req: Request, res: Response) => {
+  const { admin, ...adminData } = req.body
+  const result = await UserService.createAdminDb(admin, adminData)
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User created successfully',
+    data: result,
+  })
+})
+
+export const UserController = { createStudent, createFaculty, createAdmin }
