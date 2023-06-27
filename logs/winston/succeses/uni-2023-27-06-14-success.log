@@ -1,0 +1,24 @@
+{
+  message: 'Databse is connected successfully',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-27T08:53:55.221Z'
+}
+{
+  message: 'listening on port 5001',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-27T08:53:55.371Z'
+}
+{
+  message: 'Databse is connected successfully',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-27T08:59:13.944Z'
+}
+{
+  message: 'listening on port 5001',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-27T08:59:13.963Z'
+}
