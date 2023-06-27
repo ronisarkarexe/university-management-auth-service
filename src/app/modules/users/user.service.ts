@@ -1,5 +1,4 @@
 // Database login
-
 import mongoose from 'mongoose'
 import config from '../../../config/index'
 import ApiError from '../../../customeError/ApiError'
