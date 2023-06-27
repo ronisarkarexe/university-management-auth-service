@@ -35,6 +35,8 @@ const createStudentDb = async (
     student.academicSemester
   )
 
+  console.log('academicSemester', academicSemester)
+
   // generate student id;
   let newUserAllData = null
   const session = await mongoose.startSession()

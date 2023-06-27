@@ -2,95 +2,83 @@
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:26:40.892Z'
+  timestamp: '2023-06-06T07:30:05.428Z'
 }
 {
   message: 'listening on port 5001',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:26:41.148Z'
+  timestamp: '2023-06-06T07:30:05.443Z'
 }
 {
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:27:15.300Z'
+  timestamp: '2023-06-06T07:30:48.148Z'
 }
 {
   message: 'listening on port 5001',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:27:15.312Z'
+  timestamp: '2023-06-06T07:30:48.157Z'
+}
+{
+  message: 'SIGINT is received',
+  level: 'info',
+  label: 'right now!',
+  timestamp: '2023-06-06T07:35:09.284Z'
 }
 {
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:28:30.976Z'
+  timestamp: '2023-06-06T07:36:02.613Z'
 }
 {
   message: 'listening on port 5001',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:28:30.987Z'
+  timestamp: '2023-06-06T07:36:02.627Z'
 }
 {
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:28:58.111Z'
-}
-{
-  message: 'listening on port 5001',
-  level: 'info',
-  label: 'right now!',
-  timestamp: '2023-06-06T03:28:58.122Z'
+  timestamp: '2023-06-06T07:39:33.554Z'
 }
 {
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:29:06.002Z'
+  timestamp: '2023-06-06T07:40:59.233Z'
 }
 {
   message: 'listening on port 5001',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:29:06.011Z'
+  timestamp: '2023-06-06T07:40:59.249Z'
 }
 {
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:29:33.451Z'
+  timestamp: '2023-06-06T07:41:22.988Z'
 }
 {
   message: 'listening on port 5001',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:29:33.466Z'
+  timestamp: '2023-06-06T07:41:22.999Z'
 }
 {
   message: 'Databse is connected successfully',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:29:44.647Z'
+  timestamp: '2023-06-06T07:42:23.716Z'
 }
 {
   message: 'listening on port 5001',
   level: 'info',
   label: 'right now!',
-  timestamp: '2023-06-06T03:29:44.661Z'
-}
-{
-  message: 'Databse is connected successfully',
-  level: 'info',
-  label: 'right now!',
-  timestamp: '2023-06-06T03:29:49.661Z'
-}
-{
-  message: 'listening on port 5001',
-  level: 'info',
-  label: 'right now!',
-  timestamp: '2023-06-06T03:29:49.675Z'
+  timestamp: '2023-06-06T07:42:23.735Z'
 }
