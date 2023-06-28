@@ -13,6 +13,7 @@ const router = express.Router()
 router.patch('/:id', validateRequest(updateStudentZodSchema), updateStudent)
 router.get('/', getAllStudentData)
 router.get('/:id', getSingleStudent)
+
 router.delete('/:id', deleteSingleStudent)
 
 export const StudentRoutes = router

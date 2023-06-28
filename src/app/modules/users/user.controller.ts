@@ -6,7 +6,6 @@ import httpStatus from 'http-status'
 
 const createStudent = catchAsync(async (req: Request, res: Response) => {
   const { student, ...userData } = req.body
-  console.log('academicSemester-> ', student.academicSemester)
   const result = await UserService.createStudentDb(student, userData)
   sendResponse(res, {
     statusCode: httpStatus.OK,
