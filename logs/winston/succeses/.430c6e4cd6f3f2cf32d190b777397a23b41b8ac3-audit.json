@@ -1,0 +1,45 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\.430c6e4cd6f3f2cf32d190b777397a23b41b8ac3-audit.json",
+  "files": [
+    {
+      "date": 1687859722274,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-27-06-15-success.log",
+      "hash": "3f10f34eed40eba6342ddc085e439e20daacb5b207245c9493a63d3a8ccae74e"
+    },
+    {
+      "date": 1687861803072,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-27-06-16-success.log",
+      "hash": "0521069a4c55eee57ed4a59c9b428902146a54558fc4d8802b2ab3a5296b96d2"
+    },
+    {
+      "date": 1687923163708,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-28-06-09-success.log",
+      "hash": "bfbe2d2e9c231bb367589e82f50ddae7c43d6521d9a73b9381649c560a55a330"
+    },
+    {
+      "date": 1687926667855,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-28-06-10-success.log",
+      "hash": "0ab92047b6c0874c112a5be4f680760430d17e210df18c38653f56be5a80c407"
+    },
+    {
+      "date": 1687930203912,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-28-06-11-success.log",
+      "hash": "5fb0e93c5885a285c1a7c09a8b811292b9ec11877a9ed1d6e4d2df5cd03c53ad"
+    },
+    {
+      "date": 1687933919861,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-28-06-12-success.log",
+      "hash": "f62ae4eed484e2c87075e33e685c983a3b78c3a505cdbb1dc7017722484ac6ac"
+    },
+    {
+      "date": 1687937441236,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\succeses\\uni-2023-28-06-13-success.log",
+      "hash": "42efe994efef7a1d0957ffedeb6f25cbc4289c1c2e22edc0c1c79cf2beb1cd2d"
+    }
+  ],
+  "hashType": "sha256"
+}

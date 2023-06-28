@@ -1,0 +1,45 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\.09a861fd55d485baba15b676673b9202706b0a39-audit.json",
+  "files": [
+    {
+      "date": 1687859722284,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-27-06-15-error.log",
+      "hash": "c7e529692bdda5cdc7bcc7393190b0f60a92c41911e46d71d888b0500894a7c2"
+    },
+    {
+      "date": 1687861803084,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-27-06-16-error.log",
+      "hash": "64763a708f06c351954cf46e1ee4bcf6967f644fbbb3c57634d9508351ab1e23"
+    },
+    {
+      "date": 1687923163756,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-28-06-09-error.log",
+      "hash": "4e4b08bef3eecde16f8999dc956acde552026463044ad1e90b1888a4651a7a1b"
+    },
+    {
+      "date": 1687926667865,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-28-06-10-error.log",
+      "hash": "14c5319b3ece772aaddec8982552c981e7d52c5db4b09f30d00c5e5c9dddf0ba"
+    },
+    {
+      "date": 1687930203938,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-28-06-11-error.log",
+      "hash": "485f70fd66455e88ba9754dbd443df9d98e7d0d9dda9a79b2a33b5cdf53673a6"
+    },
+    {
+      "date": 1687933919903,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-28-06-12-error.log",
+      "hash": "4773d18a6297b1d83f3964392a3ea305be463ee1946a301a9e59c9a97d670e6a"
+    },
+    {
+      "date": 1687937441281,
+      "name": "D:\\New Mission 2023\\Next Level Main Project\\University Management Project\\logs\\winston\\errors\\uni-2023-28-06-13-error.log",
+      "hash": "4b0610b34beba8fc4f505817ed78e90717f5e4225fd743b8d431ff3255cb9666"
+    }
+  ],
+  "hashType": "sha256"
+}
